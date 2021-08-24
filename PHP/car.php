@@ -15,7 +15,9 @@
             echo "Licencia: $this->license Driver: ".$this->driver->name;
         }
 
-
+        public function getPassenger(){
+            return $this->passenger;
+        }
     }
 
 ?>
